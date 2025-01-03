@@ -9,10 +9,18 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal2100-common/proprietary/vendor/bin/cass:$(TARGET_COPY_OUT_VENDOR)/bin/cass \
     vendor/samsung/universal2100-common/proprietary/vendor/bin/cbd:$(TARGET_COPY_OUT_VENDOR)/bin/cbd \
     vendor/samsung/universal2100-common/proprietary/vendor/bin/hermesd:$(TARGET_COPY_OUT_VENDOR)/bin/hermesd \
+    vendor/samsung/universal2100-common/proprietary/vendor/bin/hw/android.hardware.drm@1.3-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.3-service.widevine \
+    vendor/samsung/universal2100-common/proprietary/vendor/bin/hw/android.hardware.keymaster@4.0_strongbox-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.keymaster@4.0_strongbox-service \
+    vendor/samsung/universal2100-common/proprietary/vendor/bin/hw/android.hardware.neuralnetworks@1.3-service.eden-drv:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.neuralnetworks@1.3-service.eden-drv \
+    vendor/samsung/universal2100-common/proprietary/vendor/bin/hw/gps.sh:$(TARGET_COPY_OUT_VENDOR)/bin/hw/gps.sh \
+    vendor/samsung/universal2100-common/proprietary/vendor/bin/hw/gpsd:$(TARGET_COPY_OUT_VENDOR)/bin/hw/gpsd \
+    vendor/samsung/universal2100-common/proprietary/vendor/bin/hw/lhd:$(TARGET_COPY_OUT_VENDOR)/bin/hw/lhd \
+    vendor/samsung/universal2100-common/proprietary/vendor/bin/hw/vendor.samsung.hardware.gnss@2.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.gnss@2.1-service \
+    vendor/samsung/universal2100-common/proprietary/vendor/bin/hw/vendor.samsung_slsi.hardware.SbwcDecompService@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung_slsi.hardware.SbwcDecompService@1.0-service \
+    vendor/samsung/universal2100-common/proprietary/vendor/bin/hw/vendor.samsung_slsi.hardware.eden_runtime@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung_slsi.hardware.eden_runtime@1.0-service \
     vendor/samsung/universal2100-common/proprietary/vendor/bin/tzdaemon:$(TARGET_COPY_OUT_VENDOR)/bin/tzdaemon \
     vendor/samsung/universal2100-common/proprietary/vendor/bin/tzts_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/tzts_daemon \
     vendor/samsung/universal2100-common/proprietary/vendor/bin/vaultkeeperd:$(TARGET_COPY_OUT_VENDOR)/bin/vaultkeeperd \
-    vendor/samsung/universal2100-common/proprietary/vendor/bin/vendor.samsung.hardware.security.proca@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/vendor.samsung.hardware.security.proca@2.0-service \
     vendor/samsung/universal2100-common/proprietary/vendor/etc/eden/enn_preset.json:$(TARGET_COPY_OUT_VENDOR)/etc/eden/enn_preset.json \
     vendor/samsung/universal2100-common/proprietary/vendor/etc/eden/gpu/eden_kernel_64.bin:$(TARGET_COPY_OUT_VENDOR)/etc/eden/gpu/eden_kernel_64.bin \
     vendor/samsung/universal2100-common/proprietary/vendor/etc/gnss/gps.cer:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/gps.cer \
@@ -29,6 +37,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal2100-common/proprietary/vendor/etc/init/vaultkeeper_common.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vaultkeeper_common.rc \
     vendor/samsung/universal2100-common/proprietary/vendor/etc/init/vendor.samsung.hardware.gnss@2.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.gnss@2.1-service.rc \
     vendor/samsung/universal2100-common/proprietary/vendor/etc/init/vendor.samsung.rilchip.slsi.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.rilchip.slsi.rc \
+    vendor/samsung/universal2100-common/proprietary/vendor/etc/init/vendor.samsung_slsi.hardware.SbwcDecompService@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung_slsi.hardware.SbwcDecompService@1.0-service.rc \
     vendor/samsung/universal2100-common/proprietary/vendor/etc/init/vendor.samsung_slsi.hardware.eden_runtime@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung_slsi.hardware.eden_runtime@1.0-service.rc \
     vendor/samsung/universal2100-common/proprietary/vendor/etc/init/wifi.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wifi.rc \
     vendor/samsung/universal2100-common/proprietary/vendor/etc/init/wifi_brcm.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wifi_brcm.rc \
@@ -172,6 +181,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal2100-common/proprietary/vendor/lib64/libnpuc_graph.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnpuc_graph.so \
     vendor/samsung/universal2100-common/proprietary/vendor/lib64/libnpuc_template.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnpuc_template.so \
     vendor/samsung/universal2100-common/proprietary/vendor/lib64/libsait_npu_compiler.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsait_npu_compiler.so \
+    vendor/samsung/universal2100-common/proprietary/vendor/lib64/libsbwcwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsbwcwrapper.so \
     vendor/samsung/universal2100-common/proprietary/vendor/lib64/libsec_semRil.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsec_semRil.so \
     vendor/samsung/universal2100-common/proprietary/vendor/lib64/libsecure_storage.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsecure_storage.so \
     vendor/samsung/universal2100-common/proprietary/vendor/lib64/libsensorlistener.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensorlistener.so \
@@ -191,6 +201,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal2100-common/proprietary/vendor/lib64/vendor.samsung.hardware.hyper-V2-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.hyper-V2-ndk_platform.so \
     vendor/samsung/universal2100-common/proprietary/vendor/lib64/vendor.samsung.hardware.security.drk@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.security.drk@2.0.so \
     vendor/samsung/universal2100-common/proprietary/vendor/lib64/vendor.samsung.hardware.thermal@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.thermal@1.0.so \
+    vendor/samsung/universal2100-common/proprietary/vendor/lib64/vendor.samsung_slsi.hardware.SbwcDecompService@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung_slsi.hardware.SbwcDecompService@1.0.so \
     vendor/samsung/universal2100-common/proprietary/vendor/lib64/vendor.samsung_slsi.hardware.eden_runtime@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung_slsi.hardware.eden_runtime@1.0-impl.so \
     vendor/samsung/universal2100-common/proprietary/vendor/lib64/vendor.samsung_slsi.hardware.eden_runtime@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung_slsi.hardware.eden_runtime@1.0.so \
     vendor/samsung/universal2100-common/proprietary/vendor/tee/00000000-0000-0000-0000-6d706f667376:$(TARGET_COPY_OUT_VENDOR)/tee/00000000-0000-0000-0000-6d706f667376 \
@@ -212,11 +223,12 @@ PRODUCT_PACKAGES += \
     vendor.samsung.hardware.radio.data-V1-ndk \
     vendor.samsung.hardware.radio.messaging-V1-ndk \
     vendor.samsung.hardware.radio.sim-V1-ndk \
-    manifest_android.hardware.drm@1.3-service.widevine \
-    vendor.samsung.hardware.radio.exclude.slsi \
-    vendor.samsung.hardware.radio_manifest_2_33 \
-    vendor.samsung.hardware.sehradio_manifest_2_33 \
-    rild
+    manifest_android.hardware.drm@1.3-service.widevine.xml \
+    vendor.samsung.hardware.radio.exclude.slsi.xml \
+    vendor.samsung.hardware.radio_manifest_2_33.xml \
+    vendor.samsung.hardware.sehradio_manifest_2_33.xml \
+    rild \
+    vendor.samsung.hardware.security.proca@2.0-service
 
 PRODUCT_PACKAGES += \
     libGLES_mali_libOpenCL_symlink32 \
